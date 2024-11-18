@@ -46,3 +46,21 @@ Configuration
 -------------
 The configuration of dwm is done by creating a custom config.h
 and (re)compiling the source code.
+
+
+Added patches
+-------------
+
+- systray
+- restartsig
+- restoreafterrestart
+- vanitygaps
+- hide_vacant_tabs
+- pertag
+- movestack
+- attachbottom
+- actualfullscreen
+- alwayscenter
+- sticky
+- swallow
+- scratchpad
