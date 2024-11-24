@@ -22,8 +22,8 @@ static const char *fonts[]          = { "JetBrainsMono Nerd Font:size=10", "JoyP
 static const char dmenufont[]       = "JetBrainsMono Nerd Font:size=10";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#949494";
-static const char col_gray4[]       = "#eeeeee";
+static const char col_gray3[]       = "#eeeeee";
+static const char col_gray4[]       = "#949494";
 static const char col_cyan[]        = "#222222";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
@@ -42,7 +42,7 @@ static const Rule rules[] = {
 	/* class     					instance  title           	tags mask  	isfloating  isterminal  noswallow  monitor */
 	{ "Gimp",    					NULL,     NULL,           	0,         	1,          0,           0,        -1 },
 	{ "Firefox", 					NULL,     NULL,           	1 << 8,    	0,          0,          -1,        -1 },
-	{ "St",      					NULL,     NULL,           	0,         	0,          1,           0,        -1 },
+	{ "st-256color",      					NULL,     NULL,           	0,         	0,          1,           0,        -1 },
 	{ NULL,      					NULL,     "Event Tester", 	0,         	0,          0,           1,        -1 }, /* xev */
 	{ "discord",  					NULL,	  NULL,	    		1 << 6,		0,			0,			 0,		   -1 },
 	{ "Telegram",  					NULL,	  NULL,	    		1 << 6,		0,			0,			 0,		   -1 },
